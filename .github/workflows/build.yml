@@ -3,16 +3,13 @@ name: Build
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "**.md"
-      - "**.spec.js"
-      - ".idea"
-      - ".vscode"
-      - ".dockerignore"
-      - "Dockerfile"
-      - ".gitignore"
-      - ".github/**"
-      - "!.github/workflows/build.yml"
+    paths:
+      - ".github/workflows/build.yml"
+      - "electron/**"
+      - "src/**"
+      - "**.json*"
+      - "index.html"
+      - "vite.config.ts"
 
 jobs:
   build:

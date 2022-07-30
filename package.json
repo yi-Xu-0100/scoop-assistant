@@ -1,9 +1,9 @@
 {
-  "name": "electron-vue-vite",
-  "version": "2.0.0",
+  "name": "scoop-assistant",
+  "version": "0.0.1",
   "main": "dist/electron/main/index.js",
-  "description": "Really simple Electron + Vue + Vite boilerplate.",
-  "author": "草鞋没号 <308487730@qq.com>",
+  "description": "The GUI of scoop based on Electron.",
+  "author": "yi-Xu-0100",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -29,9 +29,19 @@
   },
   "keywords": [
     "electron",
+    "scoop",
+    "GUI",
     "rollup",
     "vite",
     "vue3",
     "vue"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/yi-Xu-0100/scoop-assistant/issues"
+  },
+  "homepage": "https://github.com/yi-Xu-0100/scoop-assistant#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-Xu-0100/scoop-assistant.git"
+  }
 }
